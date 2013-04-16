@@ -92,3 +92,6 @@ set winwidth=79
 " Keyword navigation
 filetype plugin on
 runtime macros/matchit.vim
+
+" Display line numbers
+set number
