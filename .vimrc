@@ -95,3 +95,11 @@ runtime macros/matchit.vim
 
 " Display line numbers
 set number
+
+" Pathogen
+execute pathogen#infect()
+
+" Solarized
+syntax enable
+set background=dark
+colorscheme solarized
