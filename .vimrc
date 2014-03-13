@@ -35,8 +35,13 @@ set number
 set wildmode=longest,list
 set wildmenu
 
-" Pathogen
+" Pathogen (add pathogen.vim to ~/.vimrc/autoload/)
 execute pathogen#infect()
+
+" I use the following Pathogen bundles (add to ~/.vimrc/bundle/):
+" * vim-coffee-script
+" * vim-colors-solarized
+" * vim-less
 
 " Solarized
 syntax enable
