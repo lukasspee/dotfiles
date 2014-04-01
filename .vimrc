@@ -39,14 +39,7 @@ set wildmenu
 execute pathogen#infect()
 
 " I use the following Pathogen bundles (add to ~/.vimrc/bundle/):
-" * vim-coffee-script
-" * vim-colors-solarized
-" * vim-less
-
-" Solarized
-syntax enable
-set background=dark
-colorscheme solarized
+" * ...
 
 " Trailing whitespace
 function! TrimWhiteSpace()
