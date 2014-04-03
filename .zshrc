@@ -1,6 +1,9 @@
 # Customize to your needs...
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:~/bin:/usr/local/mysql/bin
 
+# Emacs style keybindings
+bindkey -e
+
 # Pretty pretty prompt
 autoload -U colors
 colors
