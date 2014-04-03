@@ -24,9 +24,13 @@ set winheight=30
 set winminheight=5
 set winwidth=79
 
-" Keyword navigation
 filetype plugin on
+
+" Keyword navigation
 runtime macros/matchit.vim
+
+" Syntax highlighting
+syntax on
 
 " Display line numbers
 set number
