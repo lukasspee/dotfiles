@@ -25,3 +25,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
+
+ANACONDA=~/anaconda/bin
+export PATH=$ANACONDA:$PATH
