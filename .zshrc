@@ -1,5 +1,5 @@
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:~/bin:/usr/local/mysql/bin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:~/bin
 
 # Emacs style keybindings
 bindkey -e
@@ -26,5 +26,9 @@ MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 
+POSTGRES="/Applications/Postgres.app/Contents/Versions/9.3/bin"
+export PATH=$POSTGRES:$PATH
+
 ANACONDA=~/anaconda/bin
 export PATH=$ANACONDA:$PATH
+
