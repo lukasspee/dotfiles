@@ -24,11 +24,11 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 MYSQL=/usr/local/mysql
 export PATH=$PATH:"$MYSQL/bin"
-export DYLD_LIBRARY_PATH="$MYSQL/lib":$DYLD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:"$MYSQL/lib"
 
 POSTGRES="/Applications/Postgres.app/Contents/Versions/9.3"
 export PATH="$POSTGRES/bin":$PATH
-export DYLD_LIBRARY_PATH="$POSTGRES/lib":$DYLD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:"$POSTGRES/lib"
 
 ANACONDA=~/anaconda/bin
 export PATH=$ANACONDA:$PATH
