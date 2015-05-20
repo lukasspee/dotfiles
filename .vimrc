@@ -39,12 +39,6 @@ set number
 set wildmode=longest,list
 set wildmenu
 
-" Pathogen (add pathogen.vim to ~/.vimrc/autoload/)
-execute pathogen#infect()
-
-" I use the following Pathogen bundles (add to ~/.vimrc/bundle/):
-" * ...
-
 " Trailing whitespace
 function! TrimWhiteSpace()
     %s/\s\+$//e
