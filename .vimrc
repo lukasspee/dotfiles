@@ -29,6 +29,9 @@ filetype plugin on
 " Keyword navigation
 runtime macros/matchit.vim
 
+" Pathogen
+execute pathogen#infect()
+
 " Syntax highlighting
 syntax on
 
