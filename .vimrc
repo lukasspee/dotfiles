@@ -32,6 +32,9 @@ runtime macros/matchit.vim
 " Pathogen
 execute pathogen#infect()
 
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
 " Syntax highlighting
 syntax on
 
